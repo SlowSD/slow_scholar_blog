@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/slow-scholar-s-blog/articles/normalize-data/","tags":["Seurat","Single-cell"],"noteIcon":"","updated":"2024-08-13T03:48:55.168+05:30"}
+{"dg-publish":true,"permalink":"/slow-scholar-s-blog/articles/normalize-data/","tags":["Seurat","Single-cell"],"noteIcon":"","updated":"2024-08-13T03:55:00.853+05:30"}
 ---
 
 In this short article, using a tiny, 5x5 matrix example dataset, I will explain the `NormalizeData()` function and the three `Normalization.method()` choices.
@@ -25,7 +25,7 @@ The expression data is contained
 |GeneE|5|8|10|7|2|
 |Total|19|30|35|33|34|
 
-![[Non-normalized data.png \| 300]]
+![[Non-normalized data.png \| 300x300]]
 
 As columns in count matrix represent UMI counts for each cells, the sums of UMI counts in a column represent total cellular expression.
 
